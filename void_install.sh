@@ -2,7 +2,7 @@
 
 echo Installing packages
   sudo xbps-insatll -Su xbps
-  sudo xbps-install -Syu zsh cargo ranger git curl kitty helix btop lightdm lightdm-gtk3-greeter base-devel cairo-devel clthreads-devel libxcb-devel cmake gdb ninja xcb-proto xcb-util-devel xcb-util-cursor-devel xcb-util-keysyms-devel xcb-util-wm-devel gtkmm-devel
+  sudo xbps-install -Syu void-repo-nonfree xorg zsh cargo ranger git curl kitty helix btop lightdm lightdm-gtk3-greeter base-devel cairo-devel clthreads-devel libxcb-devel cmake gdb ninja xcb-proto xcb-util-devel xcb-util-cursor-devel xcb-util-keysyms-devel xcb-util-wm-devel gtkmm-devel
 
 echo Moving around config files
   cp .zshrc ~/.zshrc
