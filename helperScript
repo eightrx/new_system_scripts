@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# exec picom --config /etc/xdg/picom.conf &
+
+xfce4-session&
+feh --bg-scale /usr/share/backgrounds/voidBackground.png 
+picom&
