@@ -21,6 +21,10 @@ echo
   sudo cp helperScript /usr/share/helperScript
   mkdir -p ~/.config/rofi/default/
   cp config.rasi ~/.config/rofi/default/config.rasi
+  mkdir -p ~/.config/kitty/
+  touch ~/.config/kitty/kitty.conf
+  echo "confirm_os_window_close 0" >> ~/.config/kitty/kitty.conf
+  echo "background #0c0c0c" >> ~/.config/kitty/kitty.conf
 
 echo
 echo Cloning and compiling HyprWM
