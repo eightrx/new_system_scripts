@@ -4,7 +4,7 @@ echo
 echo Installing packages
 echo
 sudo xbps-install -Syu xbps
-sudo xbps-install -Syu void-repo-nonfree xfce4 zsh cargo rofi ranger git curl kitty neofetch picom helix btop lightdm lightdm-gtk3-greeter base-devel cairo-devel clthreads-devel libxcb-devel cmake gdb ninja xcb-proto xcb-util-devel xcb-util-cursor-devel xcb-util-keysyms-devel xcb-util-wm-devel gtkmm-devel zoxide
+sudo xbps-install -Syu void-repo-nonfree xfce4 zsh cargo rofi xmodmap ranger git curl kitty neofetch picom helix btop lightdm lightdm-gtk3-greeter base-devel cairo-devel clthreads-devel libxcb-devel cmake gdb ninja xcb-proto xcb-util-devel xcb-util-cursor-devel xcb-util-keysyms-devel xcb-util-wm-devel gtkmm-devel zoxide
 sudo xbps-remove -y xfdesktop
 
 echo
