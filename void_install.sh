@@ -18,6 +18,7 @@ echo
   sudo mkdir -p /usr/share/xsessions/
   sudo cp hypr.desktop /usr/share/xsessions/hypr.desktop
   sudo cp Hypr /usr/local/bin/Hypr
+  sudo chmod +x /usr/local/bin/Hypr
   
   sudo mkdir -p /usr/lib/helix/runtime/themes/
   sudo cp onedark.toml /usr/lib/helix/runtime/themes/
@@ -37,6 +38,7 @@ echo
   touch ~/.config/fastfetch/config.conf
   echo "--logo-color-2 white" >> ~/.config/fastfetch/config.conf
   sudo cp fastfetch /usr/local/bin/fastfetch
+  sudo chmod +x /usr/local/bin/fastfetch
   
   sudo mkdir -p /usr/share/backgrounds/
   sudo cp chinaTown.png /usr/share/backgrounds/
