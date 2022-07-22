@@ -4,5 +4,5 @@
 
 xfce4-session&
 xfce4-panel&
-feh --bg-scale /usr/share/backgrounds/voidBackground.png 
+feh --bg-scale /usr/share/backgrounds/neonShallows.jpg
 picom&
