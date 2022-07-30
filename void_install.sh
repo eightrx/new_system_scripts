@@ -41,5 +41,5 @@ echo
   sudo chmod +x /usr/local/bin/fastfetch
   
   sudo mkdir -p /usr/share/backgrounds/
-  sudo cp chinaTown.png /usr/share/backgrounds/
+  sudo cp neonShallows.jpg /usr/share/backgrounds/
 
